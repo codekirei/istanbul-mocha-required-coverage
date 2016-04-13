@@ -2,8 +2,8 @@
   "name": "istanbul-mocha-require-coverage",
   "private": true,
   "scripts": {
-    "test": "mocha",
-    "cover": "istanbul cover _mocha"
+    "test": "mocha --opts configs/mocha.opts",
+    "cover": "istanbul cover --config configs/istanbul.yml _mocha -- --opts configs/mocha.opts"
   },
   "author": "Jacob Blakely (codekirei)",
   "license": "MIT",

@@ -1,4 +1,0 @@
---require babel-register
---require test/setup.js
---ui exports
-test/**/*.spec.js

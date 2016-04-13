@@ -1,5 +1,5 @@
 import assert from 'assert'
-import getFoo from '../src/get-foo'
+import getFoo from './get-foo'
 
 exports.getFoo = {
 
